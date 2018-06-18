@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="analyse">Analysis</string>
+    <string name="app_name">Solar Monitor</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="action_logs">Logs</string>
+    <string name="action_watthours">WattHours</string>
+    <string name="action_wattsnow">WattsNow</string>
+    <string name="action_temperature">Temperature</string>
+    <string name="action_wind">Wind</string>
+    <string name="action_clouds">Clouds</string>
+    <string name="action_peakwatts">PeakWatts</string>
+    <string name="action_peaktime">PeakTime</string>
+    <string name="action_sunlight">Sunlight</string>
+    <string name="action_readings">Readings</string>
+    <string name="action_monthly_temperature">Temperature</string>
+    <string name="action_monthly_clouds">Clouds</string>
+    <string name="action_analysis">Log Analysis</string>
+    <string name="action_permission">Permission</string>
+    <string name="activity_plotinfo">Plot Information</string>
+    <string name="action_calendar">Calendar</string>
+    <string name="action_copy">Copy log</string>
+    <string name="action_compare">Compare logs</string>
+    <string name="action_current">Current Log</string>
+    <string name="action_delete">Delete Log(s)</string>
+    <string name="action_export">Export Log</string>
+    <string name="action_import">Import Log</string>
+    <string name="action_plots">Log Plots</string>
+    <string name="action_playback">Log Playback</string>
+    <string name="action_view_satellites">Satellites</string>
+    <string name="action_map_play">Play</string>
+    <string name="action_map_pause">Pause</string>
+    <string name="action_map_reverse">Reverse</string>
+    <string name="action_map_split">Split Segments</string>
+    <string name="bearing">Bearing: 0°</string>
+    <string name="battery_min">Min. Battery</string>
+    <string name="battery_max">Max. Battery</string>
+    <string name="battery_used">Used Battery</string>
+    <string name="calendar">Calendar</string>
+    <string name="calendar_date">January 1970</string>
+    <string name="cancel">Cancel</string>
+    <string name="combine">Combine</string>
+    <string name="compare">Compare</string>
+    <string name="compass_enabled">Compass</string>
+    <string name="category_all">All</string>
+    <string name="category_cycling">Cycling</string>
+    <string name="category_jogging">Jogging</string>
+    <string name="category_walking">Walking</string>
+    <string name="delete">Delete</string>
+    <string name="description">Description</string>
+    <string name="date_message">dd/mm/yy</string>
+    <string name="end">END:</string>
+    <string name="export">Export</string>
+    <string name="enable_gps">Enable GPS</string>
+    <string name="follow">Follow</string>
+    <string name="seven_underscores">_______</string>
+    <string name="finished">finished</string>
+    <string name="getting_coordinates">Locating coordinates &#8230; </string>
+    <string name="getting_envoy">Locating Envoy &#8230; </string>
+    <string name="gps_enabled">gps_enabled</string>
+    <string name="imports">Import</string>
+    <string name="legend">Legend</string>
+    <string name="num_readings">No. of Readings</string>
+    <string name="ok">OK</string>
+    <string name="locationService">Log is in progress </string>
+    <string name="locationServiceLabel">MyLogoo</string>
+    <string name="map">Map</string>
+
+    <string name="monitor_in_progress">Monitoring in progress </string>
+    <string name="monitor_ended">Monitoring is complete </string>
+    <string name="monitor_cleanup">Monitor cleanup in progress</string>
+
+    <string name="select_one_log">Please select only 1 log</string>
+    <string name="select_two_log">Please select exactly 2 logs</string>
+    <string name="select_least_two_log">Please select at least 2 logs</string>
+    <string name="network_enabled">network_enabled</string>
+    <string name="no_coordinates">Did not receive coordinates from GPS in</string>
+    <string name="passive_enabled">passive_enabled</string>
+    <string name="preferences_file">solarmonitor.preferences</string>
+    <string name="preferences_about_title">About</string>
+    <string name="preferences_about_description">About SolarMonitor Version 0.1</string>
+    <string name="pressure_enabled">Pressure</string>
+    <string name="repair">Repair</string>
+    <string name="running">running</string>
+    <string name="search">Search</string>
+    <string name="start">Start</string>
+    <string name="status">Status: </string>
+    <string name="temperature_enabled">Temperature</string>
+    <string name="log_in_progress">Log in progress </string>
+    <string name="log_ended">Log is complete </string>
+    <string name="log_cleanup">Log cleanup in progress</string>
+    <string name="log_list">Log List </string>
+    <string name="google_app_id">solarmonitor-1127</string>
+    <string name="sat_prn">Satellite </string>
+    <string name="sat_azi">Azimuth </string>
+    <string name="sat_ele">Elevation </string>
+    <string name="sat_sig">Signal </string>
+    <string name="sat_type">Type </string>
+    <string name="sat_flag">Country</string>
+    <string name="feature">Feature</string>
+    <string name="value">Value</string>
+    <string name="about_title">SolarMonitor: Solar Log Analysis and Monitor</string>
+    <string name="time">Time: </string>
+    <string name="log_id">ID</string>
+    <string name="log_date">Date</string>
+    <string name="log_duration">Duration</string>
+    <string name="log_distance">Dist.</string>
+    <string name="log_category">Cat.</string>
+    <string name="log_speed">Speed</string>
+    <string name="log_watts">Watts</string>
+    <string name="log_covered_distance">Covered Distance</string>
+    <string name="log_log_distance">Log Distance</string>
+    <string name="log_remainder">Remainder</string>
+    <string name="log_percent_covered">Percent Covered</string>
+    <string name="icon_image">Icon image</string>
+    <string name="russia">Russia</string>
+    <string name="usa">USA</string>
+    <string name="visual">Visual</string>
+    <string name="edit">Edit</string>
+
+    <!-- days of the week -->
+    <string name="sunday">Sun</string>
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+    <string name="total">   Tot</string>
+
+    <!-- General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_debug_mode">Debug Mode</string>
+    <string-array name="pref_DebugArray">
+        <item>No messages</item>
+        <item>Local File</item>
+        <item>Android Log</item>
+    </string-array>
+    <string-array name="pref_DebugValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="pref_num_logs">Max. Number of Log Rows / Screen</string>
+    <string-array name="pref_numLogsArray">
+        <item>40</item>
+        <item>80</item>
+        <item>160</item>
+        <item>320</item>
+    </string-array>
+    <string-array name="pref_numLogsValues">
+        <item>40</item>
+        <item>80</item>
+        <item>160</item>
+        <item>1000</item>
+    </string-array>
+
+    <!-- Settings for GPS -->
+    <string name="pref_header_gps">Location Settings</string>
+
+    <string name="pref_gps_provider">Location Provider</string>
+    <string-array name="pref_locationProviderArray">
+        <item>GPS</item>
+        <item>GPS+Network</item>
+    </string-array>
+    <string-array name="pref_locationProviderValues">
+        <item>gps</item>
+        <item>gps+network</item>
+    </string-array>
+
+    <string name="pref_gps_accuracy">GPS Accuracy</string>
+    <string-array name="pref_locationAccuracyArray">
+        <item>Low (5m)</item>
+        <item>Medium (10m) </item>
+        <item>High (20m)</item>
+    </string-array>
+    <string-array name="pref_locationAccuracyValues">
+        <item>low</item>
+        <item>medium</item>
+        <item>high</item>
+    </string-array>
+
+    <string name="pref_file_format">Export File Format</string>
+    <string-array name="pref_fileFormatArray">
+        <item>CSV</item>
+        <item>XML</item>
+    </string-array>
+    <string-array name="pref_fileFormatValues">
+        <item>csv</item>
+        <item>xml</item>
+    </string-array>
+
+
+</resources>

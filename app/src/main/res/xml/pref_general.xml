@@ -1,0 +1,22 @@
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:title="Monitoring Frequency"
+        android:summary="Select the Monitoring Frequency"
+        android:key="Monitoring_frequency"
+        android:defaultValue="5"
+        android:entries="@array/monitoringFrequencyArray"
+        android:entryValues="@array/monitoringFrequencyValues" />
+    <ListPreference
+        android:defaultValue="2"
+        android:entries="@array/pref_DebugArray"
+        android:entryValues="@array/pref_DebugValues"
+        android:key="Debug_mode"
+        android:title="@string/pref_debug_mode" />
+    <ListPreference
+        android:defaultValue="40"
+        android:entries="@array/pref_numLogsArray"
+        android:entryValues="@array/pref_numLogsValues"
+        android:key="Number_of_log_rows"
+        android:title="@string/pref_num_logs" />
+</PreferenceScreen>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Defaults for General prefs -->
+    <ListPreference android:title="Monitoring Frequency"
+        android:summary="Select the Monitoring Frequency"
+        android:key="Monitoring_frequency"
+        android:defaultValue="5"
+        android:entries="@array/monitoringFrequencyArray"
+        android:entryValues="@array/monitoringFrequencyValues" />
+
+    <ListPreference android:title="Debug Mode"
+        android:summary="Optionally create a Log file"
+        android:key="Debug_mode"
+        android:defaultValue="1"
+        android:entries="@array/DebugArray"
+        android:entryValues="@array/DebugValues" />
+
+    <ListPreference android:title="Log Rows"
+        android:summary="Choose the max. number of rows per screen"
+        android:key="Number_of_rows_window"
+        android:defaultValue="medium"
+        android:entries="@array/pref_numLogsArray"
+        android:entryValues="@array/pref_numLogsValues" />
+
+    <ListPreference android:title="Export File Format"
+        android:summary="Select the output data file format"
+        android:key="File_format"
+        android:defaultValue="xml"
+        android:entries="@array/fileFormatArray"
+        android:entryValues="@array/fileFormatValues" />
+
+</PreferenceScreen>

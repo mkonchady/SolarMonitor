@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/visuals"
+        android:title="@string/visual"
+        android:icon="@drawable/visual"
+        android:showAsAction="always">
+             <menu>
+                 <item android:id="@+id/action_watthours"
+                     android:icon="@drawable/icon_e"
+                     android:title="@string/action_watthours"
+                     app:showAsAction="ifRoom" />
+                 <item android:id="@+id/action_wattsnow"
+                     android:icon="@drawable/icon_s"
+                     android:title="@string/action_wattsnow"
+                     app:showAsAction="ifRoom" />
+                 <item android:id="@+id/action_temperature"
+                     android:icon="@drawable/icon_p"
+                     android:title="@string/action_temperature"
+                     app:showAsAction="ifRoom" />
+                 <item android:id="@+id/action_wind"
+                     android:icon="@drawable/icon_w"
+                     android:title="@string/action_wind"
+                     app:showAsAction="ifRoom"/>
+                 <item android:id="@+id/action_clouds"
+                     android:icon="@drawable/icon_c"
+                     android:title="@string/action_clouds"
+                     app:showAsAction="ifRoom"/>
+                 <item android:id="@+id/action_analyze"
+                     android:icon="@drawable/icon_a"
+                     android:title="@string/action_analysis"
+                     app:showAsAction="ifRoom"/>
+            </menu>
+    </item>
+
+    <item
+        android:id="@+id/edit"
+        android:title="@string/edit"
+        android:icon="@drawable/edit"
+        android:showAsAction="always"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/action_peakwatts"
+                android:title="@string/action_peakwatts"
+                android:icon="@drawable/icon_w"
+                app:showAsAction="never"/>
+            <item android:id="@+id/action_peaktime"
+                android:title="@string/action_peaktime"
+                android:icon="@drawable/icon_p"
+                app:showAsAction="never"/>
+            <item android:id="@+id/action_sunlight"
+                android:title="@string/action_sunlight"
+                android:icon="@drawable/icon_s"
+                app:showAsAction="never"/>
+            <item android:id="@+id/action_readings"
+                android:title="@string/action_readings"
+                android:icon="@drawable/icon_g"
+                app:showAsAction="never"/>
+            <item android:id="@+id/action_monthly_temperature"
+                android:title="@string/action_monthly_temperature"
+                android:icon="@drawable/icon_p"
+                app:showAsAction="never"/>
+            <item android:id="@+id/action_monthly_clouds"
+                android:title="@string/action_monthly_clouds"
+                android:icon="@drawable/icon_p"
+                app:showAsAction="never"/>
+
+        </menu>
+    </item>
+
+    <item android:id="@+id/action_export"
+        android:title="@string/action_export"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_import"
+        android:title="@string/action_import"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_delete"
+        android:title="@string/action_delete"
+        android:icon="@drawable/icon_d"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,22 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="gps"
+        android:entries="@array/pref_locationProviderArray"
+        android:entryValues="@array/pref_locationProviderValues"
+        android:key="Location_provider"
+        android:title="@string/pref_gps_provider" />
+    <ListPreference
+        android:defaultValue="medium"
+        android:entries="@array/pref_locationAccuracyArray"
+        android:entryValues="@array/pref_locationAccuracyValues"
+        android:key="Location_accuracy"
+        android:title="@string/pref_gps_accuracy" />
+    <ListPreference
+        android:defaultValue="gpx"
+        android:entries="@array/pref_fileFormatArray"
+        android:entryValues="@array/pref_fileFormatValues"
+        android:key="File_format"
+        android:title="@string/pref_file_format" />
+
+</PreferenceScreen>
