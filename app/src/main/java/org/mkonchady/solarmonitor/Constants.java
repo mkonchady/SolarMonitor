@@ -33,7 +33,7 @@ public final class Constants {
             "open_timestamp", "sunrise_timestamp", "sunset_timestamp", "name"};
 
     private final static String OPENWEATHER_SITE = "http://api.openweathermap.org/data/2.5/weather";
-    private final static String OPENWEATHER_APPID = "c5d14b4cafe6af9c3e1606b744f73156";
+    private final static String OPENWEATHER_APPID = "c5d14b4cafe6af9c3e1606b744f7****";
     final static String OPENWEATHER_URL = OPENWEATHER_SITE + "?appid=" + OPENWEATHER_APPID;
 
     final static String LOG_JOB_SERVICE = "solar_log_job_service";
